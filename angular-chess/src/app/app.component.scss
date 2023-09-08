@@ -1,0 +1,27 @@
+.black{
+  height: 80px;
+  width: 80px;  
+  background-color: black;
+}
+.white{
+    height: 80px;
+    width: 80px;  
+    background-color: white;
+}
+  .red{
+    height: 80px;
+    width: 80px;  
+    background-color: red;
+}
+  .blue{
+    height: 80px;
+    width: 80px;  
+    background-color: blue;
+}
+  .board{
+    display: flex;
+    flex-direction: column;
+}
+  .row{
+    display: flex;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <button class="btn" (click)="reset()">Новая Игра</button>
+  <button class="btn" (click)="undo()">Вернуть</button>
+</div>
+<div class="board">
+  <div *ngFor="let row of board; let i = index" class="row">
+    <div *ngFor="let cell of row; let j = index" class="cell" >{{cell}}</div>
+  </div>
+</div>
+<div *ngIf="defeat" class="message">
+  {{message}}
+</div> 
